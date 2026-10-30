@@ -33,6 +33,7 @@ class Customer:
 
 # CLASS 3 - DELIVERY
 class Delivery:
+    # Manages delivery records in the database
     def __init__(self, database):
         self.db = database.db
 
