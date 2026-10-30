@@ -13,6 +13,7 @@ class Database:
 
 # CLASS 2 - CUSTOMER
 class Customer:
+    # Manages customer records in database
     def __init__(self, database):
         self.db = database.db
 
