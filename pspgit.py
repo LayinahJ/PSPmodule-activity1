@@ -6,7 +6,7 @@ class Database:
         self.db = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="abceef123",
+            password="",
             database="testDBLloyds2"
         )
 
